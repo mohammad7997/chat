@@ -217,6 +217,20 @@ padding-right: 10px;
 cursor: pointer;
 background-color: rgba(0,0,0,0.2);
 }
+
+input{
+    background-color: rgba(0,0,0,0.3) !important;
+}
+
+#register{
+    color: white;
+}
+
+.login{
+    height: 80vh !important;
+    margin-top: 20vh;
+}
+
 @media(max-width: 576px){
 .contacts_card{
 margin-bottom: 15px !important;

@@ -1,8 +1,10 @@
 
 @extends('layout')
 @section('content')
+
 {{-- sidebar --}}
 @include('partial.sidebar')
+
     <div class="col-md-8 col-xl-6 chat">
         <div class="card">
             <div class="card-header msg_head">
