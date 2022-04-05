@@ -220,10 +220,29 @@ background-color: rgba(0,0,0,0.2);
 
 input{
     background-color: rgba(0,0,0,0.3) !important;
+    color: #e7e7e7 !important;
 }
 
 #register{
     color: white;
+}
+
+.invalid-feedback{
+    color: rgba(255,255,255,0.8) !important;
+    display: block;
+}
+
+#emial_confirmation_header{
+    font-size: 20px;
+    color: white;
+}
+
+#emial_confirmation_content{
+    color: rgba(255,255,255,0.8) !important;
+}
+
+#row_email{
+    margin-top:18vh !important;
 }
 
 .login{
