@@ -369,7 +369,7 @@ input{
     color: #e7e7e7 !important;
 }
 
-#register{
+#register,#login{
     color: white;
 }
 

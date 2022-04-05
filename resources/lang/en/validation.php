@@ -158,6 +158,9 @@ return [
     |
     */
 
-    'attributes' => [],
+    'attributes' => [
+        'credentials' => 'this email or user name',
+        'email_user_name' => 'email or user name',
+    ],
 
 ];
