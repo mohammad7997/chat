@@ -5,7 +5,7 @@
         'type' => 'project',
         'install_path' => __DIR__ . '/../../',
         'aliases' => array(),
-        'reference' => '33a4c7fa23be2ecff0031eb818a0f25e22a402dc',
+        'reference' => '529bf6611814835873cf1e8301ff8a6fbe036514',
         'name' => 'laravel/laravel',
         'dev' => true,
     ),
@@ -17,6 +17,15 @@
             'install_path' => __DIR__ . '/../asm89/stack-cors',
             'aliases' => array(),
             'reference' => '73e5b88775c64ccc0b84fb60836b30dc9d92ac4a',
+            'dev_requirement' => false,
+        ),
+        'brian2694/laravel-toastr' => array(
+            'pretty_version' => '5.57',
+            'version' => '5.57.0.0',
+            'type' => 'library',
+            'install_path' => __DIR__ . '/../brian2694/laravel-toastr',
+            'aliases' => array(),
+            'reference' => '1274f58564b9d845dfe82d5aca60b99b6fbb5a71',
             'dev_requirement' => false,
         ),
         'brick/math' => array(
@@ -400,7 +409,7 @@
             'type' => 'project',
             'install_path' => __DIR__ . '/../../',
             'aliases' => array(),
-            'reference' => '33a4c7fa23be2ecff0031eb818a0f25e22a402dc',
+            'reference' => '529bf6611814835873cf1e8301ff8a6fbe036514',
             'dev_requirement' => false,
         ),
         'laravel/sail' => array(

@@ -16,6 +16,8 @@
         <link rel="stylesheet" href="{{ asset('assets/css/style.css') }}">
         <script type="text/javascript" src="{{ asset('assets/js/script.js') }}"></script>
 
+        <link rel="stylesheet" href="http://cdn.bootcss.com/toastr.js/latest/css/toastr.min.css"> 
+
 	</head>
 	<!--Coded With Love By Mutiullah Samim-->
     <body>

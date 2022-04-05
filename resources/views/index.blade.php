@@ -19,7 +19,7 @@
                     </div>
                     <div class="video_cam">
                         <span><i class="fas fa-video"></i></span>
-                        <span><i class="fas fa-phone"></i></span>
+                        <span><a href="tel:+989387105344" id="tel"><i class="fas fa-phone"></i></a></span>
                     </div>
                 </div>
                 <span id="action_menu_btn"><i class="fas fa-ellipsis-v"></i></span>
@@ -29,10 +29,21 @@
                         <li><i class="fas fa-users"></i> Add to close friends</li>
                         <li><i class="fas fa-plus"></i> Add to group</li>
                         <li><i class="fas fa-ban"></i> Block</li>
+
+                        @auth
+                            <li>
+                                <form id="logout" method="POST" action="{{ route('logout')}}">
+                                    @csrf
+                                    <i class="fa fa-sign-out-alt" aria-hidden="true"></i>
+                                    <a onclick="document.getElementById('logout').submit();"> exit</a>
+                                </form>
+                            </li>
+                        @endauth
+                        
                     </ul>
                 </div>
             </div>
-            <div class="card-body msg_card_body">
+            <div class="card-body msg_card_body scrollbar scrollbar-near-moon thin">
                 <div class="d-flex justify-content-start mb-4">
                     <div class="img_cont_msg">
                         <img src="https://static.turbosquid.com/Preview/001292/481/WV/_D.jpg" class="rounded-circle user_img_msg">

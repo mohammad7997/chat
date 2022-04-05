@@ -7,8 +7,8 @@
             </div>
         </div>
     </div>
-    <div class="card-body contacts_body">
-        <ui class="contacts">
+    <div class="card-body contacts_body scrollbar scrollbar-near-moon thin">
+        <ul class="contacts">
         <li class="active">
             <div class="d-flex bd-highlight">
                 <div class="img_cont">
@@ -69,7 +69,7 @@
                 </div>
             </div>
         </li>
-        </ui>
+        </ul>
     </div>
     <div class="card-footer"></div>
 </div>
