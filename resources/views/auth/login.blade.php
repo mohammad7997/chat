@@ -42,6 +42,10 @@
                   <input class="btn btn-primary btn-lg" type="submit" value="Submit" />
                 </div>
 
+                <div class="mt-1 pt-2 d-flex justify-content-center">
+                    <a class="text-light" href={{ route('register') }}> << register >> <a>
+                </div>
+
             </form>
         </div>
     </div>

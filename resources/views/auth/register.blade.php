@@ -91,7 +91,11 @@
                 </div>
 
                 <div class="mt-4 pt-2 d-flex justify-content-center">
-                  <input class="btn btn-primary btn-lg " type="submit" value="Submit" />
+                    <input class="btn btn-primary btn-lg " type="submit" value="Submit" />
+                </div>
+
+                <div class="mt-1 pt-2 d-flex justify-content-center">
+                    <a class="text-light" href={{ route('login') }}> << login >> <a>
                 </div>
 
             </form>
